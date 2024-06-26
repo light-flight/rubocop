@@ -26,7 +26,7 @@ but not necessary as long as the cop name is unique across all types.
 == Config file locations
 
 RuboCop will start looking for the configuration file in the directory
-where the inspected file is and continue its way up to the root directory.
+where the command is executed and continue its way up to the root directory.
 
 If it cannot be found until reaching the project's root directory, then it will
 be searched for in the https://dot-config.github.io[.config directory of the project root]
